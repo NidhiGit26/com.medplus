@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/dubey273/user-app'
+                git branch: 'main', url: 'https://github.com/NidhiGit26/com.medplus'
             }
         }
 
